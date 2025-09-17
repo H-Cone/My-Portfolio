@@ -11,7 +11,7 @@ body{
     background: url(home.png);
     background-position: center;
     background-size: cover;
-    /* height: 100vh; */
+    height: 70vh;
 }
 
 .header{
@@ -46,7 +46,7 @@ body{
     position: absolute;
     bottom: 40px;
     width: 170px;
-    margin: 0px 0 0 800px;
+    margin: 5px 0 0 800px;
     display: flex;
     justify-content: space-between;
 }
@@ -97,6 +97,7 @@ body{
     color: rgb(7, 123, 170);
     font-size: 56px;
     font-weight: 700;
+    margin-top: 100px;
 }
 
 .about h3{
@@ -111,7 +112,7 @@ body{
 }
 .hehe{
     /* background-color: crimson; */
-    margin-top: 30px;
+    margin-top: 50px;
     max-width: 300px;
     margin-left: 150px;
     /* justify-content: space-between; */
@@ -122,7 +123,7 @@ body{
 .he{
     color: white;
     margin-left: 130px;
-    padding: 10px 30px;
+    padding: 10px 40px;
     background: transparent;
     border: 2px solid #00abf0;
     transition: .5s ease;
@@ -138,8 +139,8 @@ body{
     color: white;
 }
 .he:hover{
-    color: aqua;
-    background-color: black;
+    color: whitesmoke;
+    background-color: #00abf0;
     box-shadow: 0px 0px 90px rgba(18, 69, 208, 0.748);
     cursor: pointer;
     transform: scale(.7);
